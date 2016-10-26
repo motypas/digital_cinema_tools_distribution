@@ -63,13 +63,13 @@ libdir=$basedir/.lib
 bindir=$basedir/.bin
 
 # Ruby version management: rbenv
-rbenv_url="git://github.com/sstephenson/rbenv.git"
+rbenv_url="git://github.com/rbenv/rbenv.git"
 export RBENV_ROOT=$libdir/.rbenv
 rbenv_dir=$RBENV_ROOT
 rbenv_plugins_dir=$rbenv_dir/plugins
 
 # Ruby build system: ruby-build
-rubybuild_url="git://github.com/sstephenson/ruby-build.git"
+rubybuild_url="git://github.com/rbenv/ruby-build.git"
 rubybuild_dir=$rbenv_plugins_dir/ruby-build
 ruby_version='2.1.5'
 gemrc=$HOME/.gemrc
