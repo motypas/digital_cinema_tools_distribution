@@ -87,8 +87,8 @@ openjpeg_install_dir=$bindir/openjpeg
 
 # Handle SMPTE and Interop trackfiles: ASDCPLib
 cinecert='download.cinecert.com/asdcplib'
-asdcplib_version='2.5.14'
-asdcplib_version_tarball_md5='f84a4b30c6e8aca234e8327c99e6f512'
+asdcplib_version='1.12.60'
+asdcplib_version_tarball_md5='3bb2754744a629813e4db816e081e114'
 asdcplib_tarball="asdcplib-$asdcplib_version.tar.gz"
 asdcplib_tarball_url="http://$cinecert/$asdcplib_tarball"
 asdcplib_dir=$libdir/asdcplib
